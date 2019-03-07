@@ -1,0 +1,82 @@
+body {
+    background-image: url("assets/images/gravel.png");
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .5px;
+  }
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+h2 {
+    color: #4aaaa5;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: #777777;
+    padding: 0;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #777777;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.main-body {
+    margin-bottom: 80px;
+}
+
+#sticky {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #666666; 
+    border-top-color: #4aaaa5;
+    height: 50px;
+    border-top: 6px;
+}
+
+.portimg {
+    position: relative;
+    max-width: 274px;
+}
+
+.portimg h3 {
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 2rem;
+}
+
+#name-logo {
+    font-size: 2rem;
+}
